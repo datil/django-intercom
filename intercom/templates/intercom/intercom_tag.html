@@ -1,7 +1,7 @@
 {% if INTERCOM_IS_VALID %}
 <script>
  var intercomSettings = {
-     'app_id': {{intercom_appid}},
+     'app_id': '{{intercom_appid}}',
      'email': '{{email_address}}',
      {% if user_id %}'user_id': '{{user_id}}',{% endif %}
      'name': '{{name}}',
